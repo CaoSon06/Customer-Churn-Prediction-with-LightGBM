@@ -1,0 +1,22 @@
+# Python and notebook runtime
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Local data and generated artifacts
+*.csv
+artifacts/
+*.pkl
+*.joblib
+*.parquet
+
+# Local configuration
+.env
+.env.*
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
